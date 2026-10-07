@@ -304,5 +304,5 @@ app.delete('/api/wishlist/:wishlistId', async (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`AuraFit AR Server running on port ${PORT}`);
-  console.log(`API available at http://localhost:${PORT}/api`);
+  console.log(`API available at http://192.168.8.184:3000/api`);
 });
